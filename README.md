@@ -7,10 +7,14 @@ This is a simple AI chat agent built using Python, Google ADK, and Gemini 2.5 Fl
 - Powered by Gemini model
 - Runs locally
 
-# How to Run
-1. Create virtual environment
-2. Install dependencies
-3. Run `adk web`
+# How to Run Locally
 
-## Note
+```bash
+uv venv
+source .venv/Scripts/activate   # Windows
+pip install -r requirements.txt
+adk web
+```
+
+# Note
 This project is for learning purposes.
